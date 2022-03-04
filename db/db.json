@@ -1,0 +1,96 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Lionel Messi",
+      "photo": "https://img.olympicchannel.com/images/image/private/t_1-1_600/f_auto/v1538355600/primary/wfrhxc0kh2vvq77sonki"
+    },
+    {
+      "id": 2,
+      "name": "Michael Jackson",
+      "photo": "https://www.clarin.com/img/2020/05/05/michael-jackson-el-rey-del___C0rCkvPoC_340x340__1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Jordan",
+      "photo": "https://www.biografiasyvidas.com/biografia/j/fotos/jordan_michael_1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Robert Downey",
+      "photo": "https://media.gq.com.mx/photos/5ffa22129274cd36fe35681a/1:1/w_2027,h_2027,c_limit/robert-downey-jr-star-wars.jpg"
+    }
+  ],
+  "lesson": [
+    {
+      "id": 1,
+      "description": "Math"
+    },
+    {
+      "id": 2,
+      "description": "Programming"
+    },
+    {
+      "id": 3,
+      "description": "Science"
+    },
+    {
+      "id": 4,
+      "description": "Literature"
+    }
+  ],
+  "userLesson": [
+    {
+      "id": 1,
+      "userId": 1,
+      "lessonId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "lessonId": 1
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "lessonId": 1
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "lessonId": 2
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "lessonId": 4
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "lessonId": 3
+    }
+  ],
+  "userFriend": [
+    {
+      "id": 1,
+      "firstUserId": 1,
+      "secondUserId": 2
+    },
+    {
+      "id": 2,
+      "firstUserId": 1,
+      "secondUserId": 3
+    },
+    {
+      "id": 3,
+      "firstUserId": 1,
+      "secondUserId": 4
+    },
+    {
+      "id": 4,
+      "firstUserId": 2,
+      "secondUserId": 3
+    }
+  ]
+}
